@@ -8810,7 +8810,7 @@ For eCT work Flash, prefetch will not be done.</description>
           <description>Flash Macro Registers</description>
           <addressOffset>0x0000F000</addressOffset>
           <register>
-            <name>FM_CTL</name>
+            <name>FM_CTL_REG</name>
             <description>Flash macro control</description>
             <addressOffset>0x0</addressOffset>
             <size>32</size>
