@@ -7,7 +7,6 @@
     * svd2rust -i xxx.svd
 2. rustfmt lib.rs
 3. cargo init --lib
-    * mkdir src
 4. cargo check --target thumbv7em-none-eabihf
 5. got some errors with duplicate `FM_CTL`, renamed one of them to `FM_CTL_REG` which resolved the issue.
 6. run svd2rust again to generate new lib.rs
